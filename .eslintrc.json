@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "eslintPath": "node_modules/eslint",
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console": "off", // Allow console statements
+        "no-unused-vars": "off", // Disable the "no-unused-vars" rule
+        "semi": ["error", "never"] // Adjust the "semi" rule to be less strict
+    }
+}
